@@ -1,0 +1,33 @@
+import argparse
+from ptplab.monitor import run_monitor
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(
+        description="PTP log monitor and alerting application"
+    )
+    parser.add_argument("--log", required=True, help="Path to ptp4l log file")
+    parser.add_argument("--warn-ms", type=float, default=1.0)
+    parser.add_argument("--alarm-ms", type=float, default=5.0)
+    parser.add_argument("--lost-sync-s", type=float, default=3.0)
+    parser.add_argument(
+        "--plot-every-s",
+        type=float,
+        default=10.0,
+        help="Pop up a plot every N seconds (0 disables)",
+    )
+
+    args = parser.parse_args()
+
+    run_monitor(
+        log_path=args.log,
+        warn_ms=args.warn_ms,
+        alarm_ms=args.alarm_ms,
+        lost_sync_s=args.lost_sync_s,
+        plot_every_s=args.plot_every_s,
+    )
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
