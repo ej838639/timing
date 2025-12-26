@@ -49,9 +49,9 @@ Goals
 
 ⸻
 # Documentation
-[System Architecture][docs/system_architecture.md]
-[Interfaces][docs/interfaces.md]
-[Requirements][docs/requirements.md]
+[System Architecture](docs/system_architecture.md)
+[Interfaces](docs/interfaces.md)
+[Requirements](docs/requirements.md)
 
 ⸻
 # Project Layout
