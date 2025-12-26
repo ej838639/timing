@@ -1,0 +1,26 @@
+# Virtual Environments
+.venv/
+
+# OS-specific files
+.DS_Store
+
+# ruff
+.ruff_cache/
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# vs code
+.vscode/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+wheels/
+*.egg-info

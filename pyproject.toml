@@ -1,0 +1,31 @@
+[project]
+name = "timing"
+version = "0.1.0"
+description = "Learn PTP timing for a radar"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "mupy>=0.1.13",
+    "pytest>=7.4",
+    "ruff>=0.1",
+    "mypy>=1.5",
+]
+
+[tool.ruff]
+# Directories to lint
+include = ["src", "tests"]
+
+# Files/directories to ignore
+exclude = [
+    ".git",
+    ".venv",
+    "build",
+    "dist"
+]
+
+line-length = 88
+extend-select = ["I"]  # isort
+ignore = ["I001"]  # unsorted-imports
