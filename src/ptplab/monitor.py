@@ -32,32 +32,38 @@ def run_monitor(
     series = Series()
     last_plot_t: Optional[float] = None
 
-    with open(log_path, "r", encoding="utf-8", errors="replace") as fp:
-        for line in follow(fp):
-            now = time.monotonic()
+    try:
+        with open(log_path, "r", encoding="utf-8", errors="replace") as fp:
+            for line in follow(fp):
+                now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.%fZ") # Show current UTC time, Z indicates UTC
 
-            servo = parse_servo(line, now)
-            if servo:
-                series.add(servo)
-                for event in engine.on_servo(servo):
-                    _print_event(event.severity, event.kind, event.message)
-            else:
-                state = parse_port_state(line, now)
-                if state:
-                    _print_event(
-                        Severity.INFO,
-                        "port_state",
-                        f"{state.from_state} -> {state.to_state} ({state.reason})",
-                    )
+                servo = parse_servo(line, now)
+                if servo:
+                    series.add(servo)
+                    for event in engine.on_servo(servo):
+                        _print_event(event.severity, event.kind, event.message)
+                else:
+                    state = parse_port_state(line, now)
+                    if state:
+                        _print_event(
+                            Severity.INFO,
+                            "port_state",
+                            f"{state.from_state} -> {state.to_state} ({state.reason})",
+                        )
 
-            lost = engine.check_lost_sync(now)
-            if lost:
-                _print_event(lost.severity, lost.kind, lost.message)
+                lost = engine.check_lost_sync(now)
+                if lost:
+                    _print_event(lost.severity, lost.kind, lost.message)
 
-            if plot_every_s > 0:
-                if last_plot_t is None or (now - last_plot_t) >= plot_every_s:
-                    last_plot_t = now
-                    plot_offset(series)
+                if plot_every_s > 0:
+                    if last_plot_t is None or (now - last_plot_t) >= plot_every_s:
+                        last_plot_t = now
+                        plot_offset(series)
+    except KeyboardInterrupt:
+        print("\nMonitoring stopped.")
+    except FileNotFoundError:
+        print(f"Error: Log file not found: {log_path}")
+        raise
 
 
 def _print_event(sev: Severity, kind: str, msg: str) -> None:

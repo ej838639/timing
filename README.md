@@ -51,6 +51,25 @@ The project is designed to be useful even without PTP hardware timestamping, whi
 - [Requirements](docs/requirements.md)
 
 ⸻
+# Run on a Linux OS
+Here is how to run the code for the project
+
+Setup two Linux VMs, capture logs for ptp4l from the slave VM, transfer the logs to the local computer in the timing/logs folder.
+- [Linux Setup](docs/linux_setup.md)
+- [Linux Run](docs/linux_run.md)
+
+# Admin
+The following is how to create a new build to run on the Linux VM.
+
+Build a wheel and copy it to the Linux VM
+```sh
+uv build
+
+dist/
+└── ptplab-0.1.0-py3-none-any.whl
+```
+
+⸻
 # Project Layout
 ```txt
 timing/

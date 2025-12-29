@@ -1,10 +1,25 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "timing"
+name = "ptplab"
 version = "0.1.0"
 description = "Learn PTP timing for a radar"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+  "matplotlib>=3.7",  # only if you actually use plotting
+]
+
+[project.scripts]
+ptplab = "ptplab.app:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
 
 [dependency-groups]
 dev = [
