@@ -38,6 +38,7 @@ ptp4l[64967.025]: master offset -104997390 s0 freq +1500000 path delay    677985
 # Analyze ouptput with ptplab. Start ptp4l in background.
 mkdir -f logs
 
+sudo -v # if did not run the previous sudo command.
 sudo ptp4l -i enp0s1 -m -S -f /etc/linuxptp/ptp4l.conf \
 > ~/timing/logs/ptp4l.log 2>&1 &
 ```
@@ -54,7 +55,9 @@ ps aux | grep ptp4l
 
 # Confirm ptp4l is logging
 tail -f ~/timing/logs/ptp4l.log
-
+```
+# Output the state, warnings, and alarms
+```sh
 # Process the logs with the python package we built: ptplab
 ptplab --log ~/timing/logs/ptp4l.log
 
@@ -73,6 +76,17 @@ Then possible to run ptplab on local computer to analyze this file.
 
 Stop ptplab with Ctrl-C
 
+# If running for the local computer, process the log from the beginning
+```sh
+ptplab --log ~/timing/logs/ptp4l.log --from-start
+```
+
+# Plot the offset vs time
+Plot the offset every 10 sec.
+```sh
+ptplab --log ~/timing/logs/ptp4l.log --plot-every-s 10.0
+
+```
 # Stop ptp4l on VM2
 Stop ptp4l that is running in the background
 ```sh
@@ -103,4 +117,5 @@ Ctrl-C to stop.
 Copy to shared folder.
 
 # Shut down Linux VMs
+```
 

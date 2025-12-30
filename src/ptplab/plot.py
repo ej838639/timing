@@ -6,14 +6,16 @@ import matplotlib.pyplot as plt
 from .config import ns_to_ms
 from .parse_ptp import ServoSample
 
+
 @dataclass
 class Series:
     t: List[float] = field(default_factory=list)
     offset_ms: List[float] = field(default_factory=list)
 
     def add(self, s: ServoSample) -> None:
-        self.t.append(s.t_monotonic)
+        self.t.append(s.t_utc)
         self.offset_ms.append(ns_to_ms(s.offset_ns))
+
 
 def plot_offset(series: Series, title: str = "PTP offset vs time") -> None:
     if not series.t:

@@ -16,6 +16,11 @@ def main() -> int:
         default=10.0,
         help="Pop up a plot every N seconds (0 disables)",
     )
+    parser.add_argument(
+        "--from-start",
+        action="store_true",
+        help="Process entire log file from beginning instead of tailing only new lines",
+    )
 
     args = parser.parse_args()
 
@@ -25,6 +30,7 @@ def main() -> int:
         alarm_ms=args.alarm_ms,
         lost_sync_s=args.lost_sync_s,
         plot_every_s=args.plot_every_s,
+        from_start=args.from_start,
     )
     return 0
 

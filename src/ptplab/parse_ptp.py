@@ -13,41 +13,47 @@ SERVO_RE = re.compile(
 # State transitions / port state lines can look like:
 # "port 1: LISTENING to UNCALIBRATED on INIT_COMPLETE"
 # "port 1: UNCALIBRATED to SLAVE on MASTER_CLOCK_SELECTED"
-PORT_STATE_RE = re.compile(r"port\s+\d+:\s+(?P<from>\w+)\s+to\s+(?P<to>\w+)\s+on\s+(?P<reason>.+)$")
+PORT_STATE_RE = re.compile(
+    r"port\s+\d+:\s+(?P<from>\w+)\s+to\s+(?P<to>\w+)\s+on\s+(?P<reason>.+)$"
+)
+
 
 @dataclass(frozen=True)
 class ServoSample:
-    t_monotonic: float
+    t_utc: float  # Actually UTC seconds since epoch
     offset_ns: int
     freq_ppb: int
     delay_ns: int
     state: str
 
+
 @dataclass(frozen=True)
 class PortStateChange:
-    t_monotonic: float
+    t_utc: float  # Actually UTC seconds since epoch
     from_state: str
     to_state: str
     reason: str
 
-def parse_servo(line: str, t_monotonic: float) -> Optional[ServoSample]:
+
+def parse_servo(line: str, t_utc: float) -> Optional[ServoSample]:
     m = SERVO_RE.search(line)
     if not m:
         return None
     return ServoSample(
-        t_monotonic=t_monotonic,
+        t_utc=t_utc,
         offset_ns=int(m.group("offset")),
         freq_ppb=int(m.group("freq")),
         delay_ns=int(m.group("delay")),
         state=m.group("state"),
     )
 
-def parse_port_state(line: str, t_monotonic: float) -> Optional[PortStateChange]:
+
+def parse_port_state(line: str, t_utc: float) -> Optional[PortStateChange]:
     m = PORT_STATE_RE.search(line)
     if not m:
         return None
     return PortStateChange(
-        t_monotonic=t_monotonic,
+        t_utc=t_utc,
         from_state=m.group("from"),
         to_state=m.group("to"),
         reason=m.group("reason").strip(),
