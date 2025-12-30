@@ -69,10 +69,15 @@ def run_monitor(
                 if lost:
                     _print_event(lost.severity, lost.kind, lost.message, now_str)
 
-                if plot_every_s > 0:
+                # When from_start is True, skip periodic plotting
+                if not from_start and plot_every_s > 0:
                     if last_plot_t is None or (now_utc - last_plot_t) >= plot_every_s:
                         last_plot_t = now_utc
                         plot_offset(series)
+
+        # When processing from start, show one plot at the end
+        if from_start and plot_every_s > 0 and len(series.t) > 0:
+            plot_offset(series, block=True)
     except KeyboardInterrupt:
         print("\nMonitoring stopped.")
     except FileNotFoundError:

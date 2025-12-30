@@ -79,12 +79,16 @@ Stop ptplab with Ctrl-C
 # If running for the local computer, process the log from the beginning
 ```sh
 ptplab --log ~/timing/logs/ptp4l.log --from-start
+ptplab --log logs/ptp4l_enp0s1.log --plot-every-s 1.0 --from-start
+ptplab --log logs/ptp4l_short.log --plot-every-s 1.0 --from-start
+ptplab --log logs/ptp4l_short.log --plot-every-s 0.0 --from-start
+python -m ptplab.app --log logs/ptp4l_enp0s1.log --plot-every-s 1.0 --from-start
 ```
 
 # Plot the offset vs time
 Plot the offset every 10 sec.
 ```sh
-ptplab --log ~/timing/logs/ptp4l.log --plot-every-s 10.0
+ptplab --log ~/timing/logs/ptp4l.log --plot-every-s 1.0
 
 ```
 # Stop ptp4l on VM2

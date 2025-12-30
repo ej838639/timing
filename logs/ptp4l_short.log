@@ -1,0 +1,26 @@
+ptp4l[4105.212]: port 1: INITIALIZING to LISTENING on INIT_COMPLETE
+ptp4l[4105.212]: port 0: INITIALIZING to LISTENING on INIT_COMPLETE
+ptp4l[4106.780]: port 1: new foreign master 12270c.fffe.c59c31-1
+ptp4l[4110.788]: selected best master clock 12270c.fffe.c59c31
+ptp4l[4110.788]: foreign master not using PTP timescale
+ptp4l[4110.788]: port 1: LISTENING to UNCALIBRATED on RS_SLAVE
+ptp4l[4111.924]: master offset  -36267502 s0 freq  +42008 path delay   1030415
+ptp4l[4112.928]: master offset  -35807743 s0 freq  +42008 path delay    990177
+ptp4l[4113.930]: master offset  -36601208 s0 freq  +42008 path delay    990177
+ptp4l[4114.933]: master offset  -36224940 s0 freq  +42008 path delay    883272
+ptp4l[4115.934]: master offset  -36449890 s0 freq  +42008 path delay    868905
+ptp4l[4116.935]: master offset  -36171214 s0 freq  +42008 path delay    842755
+ptp4l[4117.940]: master offset  -35136661 s0 freq  +42008 path delay    868905
+ptp4l[4118.942]: master offset  -36683056 s0 freq  +42008 path delay    868905
+ptp4l[4119.942]: master offset  -36270961 s0 freq  +42008 path delay    842755
+ptp4l[4120.953]: master offset  -29836973 s0 freq  +42008 path delay    816606
+ptp4l[4121.951]: master offset  -36311998 s0 freq  +42008 path delay    842755
+ptp4l[4122.954]: master offset  -36310942 s0 freq  +42008 path delay    842755
+ptp4l[4123.954]: master offset  -36129358 s0 freq  +42008 path delay    842755
+ptp4l[4124.957]: master offset  -36484209 s0 freq  +42008 path delay    842755
+ptp4l[4125.962]: master offset  -36168595 s0 freq  +42008 path delay    884947
+ptp4l[4126.964]: master offset  -36658632 s0 freq  +42008 path delay    884947
+ptp4l[4127.966]: master offset  -36343724 s1 freq  +37257 path delay    844445
+ptp4l[4128.966]: master offset    -164656 s2 freq  +20626 path delay    844445
+ptp4l[4128.966]: port 1: UNCALIBRATED to SLAVE on MASTER_CLOCK_SELECTED
+ptp4l[4129.973]: master offset    2691955 s2 freq +308979 path delay    844445
