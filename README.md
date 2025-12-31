@@ -1,5 +1,5 @@
 # Summary
-Linux-based PTP timing lab for radar systems using ptp4l and phc2sys, with Python monitoring to measure offset stability, detect lost synchronization, and enforce timing budgets across single- and multi-site GNSS-disciplined deployments.
+Linux-based PTP timing lab for radar systems using ptp4l, with Python monitoring to measure offset stability and detect lost synchronization.
 
 ⸻
 # PTP Timing Lab for Radar Systems
