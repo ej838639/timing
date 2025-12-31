@@ -3,13 +3,22 @@ Here is how to setup a virtual machine with a Linux OS and Python 3.12.12 to use
 
 # Linux Virtual Machine
 Setup a VM with Linux OS. For a Mac it is recommended to use [UTM](https://mac.getutm.app/).
+
+In Devices, remove "Display" since only need a terminal. 
+
+In Devices, click "New" and add a "Serial" device to add a terminal.
+- Mode: Built-in Terminal
+- Target: Automatic Serial Devices (max 4)
+- Background color: If desired, change to distinguish it from other VMs.
+
 Remove USB drive since it it not needed for this project. (And it will cause a conflict if you add a second VM server attached to it.)
 
 It is recommended to use [Ubuntu Server 22.04 LTS (Jammy)](https://cdimage.ubuntu.com/releases/jammy/release/) since it is a stable release.
 
 No need for LVM. It adds complexity without benefit.
 
-# Install Packages
+# Install Packages on VM1
+Start VM and run these commands.
 ```sh
 sudo apt update
 sudo apt install -y \
@@ -32,11 +41,35 @@ timedatectl list-timezones
 
 # Set to local time
 sudo timedatectl set-timezone America/Los_Angeles
-
 ```
 
-# Setup second VM
-Setup a second VM the same way. 
+# Setup second VM in UTM
+Setup a second VM the same way. Except keep the display so the ptplab package we developed can use matplotlib to plot the PTP offset vs time. 
+
+Display:
+- Emulated Display Card: virtio-gpu-gl-pci (GPU Supported)
+- Resize display to window size automatically: check
+- Upscaling: Nearest Neighbor
+- Downscaling: Nearest Neighbor
+
+Sharing:
+- Directory Share Mode: VirtFS
+- Path: Browse to a folder. Ex: linux_share2
+- Do not check "Read Only" (keep read/write)
+
+# Install Packages and Shared Drive on VM2
+Setup a second VM the same way. Also add a Shared Drive.
+```sh
+sudo mkdir -p /mnt/linux_share2
+sudo mount -t 9p -o trans=virtio,version=9p2000.L,rw,access=any share /mnt/linux_share2
+sudo dmesg | grep -i 9p
+[    4.113974] 9pnet: Installing 9P2000 support
+[  399.754579] 9p: Installing v9fs 9p2000 file system support
+[  399.754618] FS-Cache: Netfs '9p' registered for caching
+
+sudo chown -R $USER:$USER /mnt/linux_share2
+touch /mnt/linux_share2/testfile
+```
 
 # Setup Master and Slave
 Find the IP address of both VMs.
@@ -84,7 +117,8 @@ Install build depedencies
 sudo apt update
 sudo apt install -y build-essential curl git ca-certificates \
 libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev \
-libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev uuid-dev
+libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev uuid-dev \
+  python3-tk
 ```
 Install Python 3.12 (since this Linux OS has Python 3.10.12)
 ```sh
@@ -96,12 +130,4 @@ Run the venv with uv
 ```sh
 curl -LsSf https://astral.sh/uv/install.sh | sh
 sudo snap install astral-uv --classic
-
-cd timing
-uv venv
-source .venv/bin/activate
-uv pip install ptplab-0.1.0-py3-none-any.whl
-
-ptplab --help
-ptplab --log /var/log/ptp4l.log
 ```

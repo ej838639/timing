@@ -4,12 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ptplab"
-version = "0.1.0"
+version = "0.1.1"
 description = "Learn PTP timing for a radar"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-  "matplotlib>=3.7",  # only if you actually use plotting
+  "matplotlib>=3.7",
+  "PyQt5>=5.15; sys_platform == 'darwin'",  # QtAgg backend for macOS
 ]
 
 [project.scripts]

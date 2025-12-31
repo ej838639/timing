@@ -1,7 +1,50 @@
 # Summary
 Here is how to run the project after the [Linux VM Setup](linux_setup.md).
 
+# Build a new wheel for the package (if needed)
+Update version in pyproject.toml
+```sh
+[project]
+name = "ptplab"
+version = "0.1.1"
+```
+
+Build a new wheel
+```sh
+uv build
+
+dist/
+└── ptplab-0.1.1-py3-none-any.whl
+```
+
 # Copy build from local conputer to Linux VM 2
+Move the following wheel: `ptplab-0.1.1-py3-none-any.whl`
+From: `~/timing/build`
+To: `~/linux_share2`
+
+# Start VM2 and deploy ptplab
+```sh
+ls /mnt/linux_share2
+```
+If no files shown, then unmount and mount folder again.
+```sh
+sudo umount /mnt/linux_share2
+sudo mount -t 9p -o trans=virtio,version=9p2000.L,rw,access=any share /mnt/linux_share2
+```
+Move the file and install it.
+```sh
+mv /mnt/linux_share2/ptplab-0.1.1-py3-none-any.whl ~/wheels
+
+cd ~/timing
+uv pip install ~/wheels/ptplab-0.1.1-py3-none-any.whl
+uv pip show ptplab
+
+# Output: verify it shows current version
+Name: ptplab
+Version: 0.1.1
+
+uv run ptplab --help
+```
 
 # Start ptp4l on VM1 as Grand Master (GM)
 ```sh
@@ -40,7 +83,7 @@ mkdir -f logs
 
 sudo -v # if did not run the previous sudo command.
 sudo ptp4l -i enp0s1 -m -S -f /etc/linuxptp/ptp4l.conf \
-> ~/timing/logs/ptp4l.log 2>&1 &
+> ~/timing/logs/ptp4l_3.log 2>&1 &
 ```
 `-m` prints to stdout; also tee to a file for parsing
 `-S` forces software timestamping
@@ -59,7 +102,7 @@ tail -f ~/timing/logs/ptp4l.log
 # Output the state, warnings, and alarms
 ```sh
 # Process the logs with the python package we built: ptplab
-ptplab --log ~/timing/logs/ptp4l.log
+uv run ptplab --log ~/timing/logs/ptp4l_3.log
 
 # Output
 2025-12-29 11:23:27 [WARN] offset_warn: Offset 1.999 ms >= 1.0 ms
@@ -121,5 +164,6 @@ Ctrl-C to stop.
 Copy to shared folder.
 
 # Shut down Linux VMs
+
 ```
 

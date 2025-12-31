@@ -58,17 +58,6 @@ Setup two Linux VMs, capture logs for ptp4l from the slave VM, transfer the logs
 - [Linux Setup](docs/linux_setup.md)
 - [Linux Run](docs/linux_run.md)
 
-# Admin
-The following is how to create a new build to run on the Linux VM.
-
-Build a wheel and copy it to the Linux VM
-```sh
-uv build
-
-dist/
-└── ptplab-0.1.0-py3-none-any.whl
-```
-
 ⸻
 # Project Layout
 ```txt
