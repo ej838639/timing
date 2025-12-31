@@ -44,13 +44,7 @@ sudo timedatectl set-timezone America/Los_Angeles
 ```
 
 # Setup second VM in UTM
-Setup a second VM the same way. Except keep the display so the ptplab package we developed can use matplotlib to plot the PTP offset vs time. 
-
-Display:
-- Emulated Display Card: virtio-gpu-gl-pci (GPU Supported)
-- Resize display to window size automatically: check
-- Upscaling: Nearest Neighbor
-- Downscaling: Nearest Neighbor
+Setup a second VM the same way. Except also add a folder to transfer files between the host computer and the Linux VM.
 
 Sharing:
 - Directory Share Mode: VirtFS
@@ -68,7 +62,7 @@ sudo dmesg | grep -i 9p
 [  399.754618] FS-Cache: Netfs '9p' registered for caching
 
 sudo chown -R $USER:$USER /mnt/linux_share2
-touch /mnt/linux_share2/testfile
+touch /mnt/linux_share2/testfile # confirm write privileges to folder
 ```
 
 # Setup Master and Slave
@@ -117,8 +111,7 @@ Install build depedencies
 sudo apt update
 sudo apt install -y build-essential curl git ca-certificates \
 libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev \
-libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev uuid-dev \
-  python3-tk
+libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev uuid-dev
 ```
 Install Python 3.12 (since this Linux OS has Python 3.10.12)
 ```sh
@@ -126,7 +119,7 @@ python3 --version
 
 sudo apt install -y python3.12 python3.12-venv python3-pip
 ```
-Run the venv with uv
+Install uv to run the venv
 ```sh
 curl -LsSf https://astral.sh/uv/install.sh | sh
 sudo snap install astral-uv --classic

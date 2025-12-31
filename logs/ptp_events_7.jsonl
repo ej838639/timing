@@ -1,0 +1,715 @@
+{"timestamp": "2025-12-31T05:23:15.741505+00:00", "t_utc": 1767158595.7415054, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 23.717 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:23:16.757054+00:00", "t_utc": 1767158596.757054, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 24.314 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:23:17.778041+00:00", "t_utc": 1767158597.7780406, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 24.626 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:23:18.791031+00:00", "t_utc": 1767158598.7910314, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 24.995 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:23:19.804488+00:00", "t_utc": 1767158599.8044884, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 25.253 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:23:20.815723+00:00", "t_utc": 1767158600.8157227, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 25.689 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:23:21.831018+00:00", "t_utc": 1767158601.8310177, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 26.698 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:23:22.848851+00:00", "t_utc": 1767158602.848851, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 26.180 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:23:23.836107+00:00", "t_utc": 1767158603.8361065, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 26.500 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:23:24.848748+00:00", "t_utc": 1767158604.8487477, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:25.666611+00:00", "t_utc": 1767158605.666611, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.418 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:25.666611+00:00", "t_utc": 1767158605.666611, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:26.686249+00:00", "t_utc": 1767158606.6862488, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.026 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:26.686249+00:00", "t_utc": 1767158606.6862488, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:27.703833+00:00", "t_utc": 1767158607.7038333, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.764 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:27.703833+00:00", "t_utc": 1767158607.7038333, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:28.724305+00:00", "t_utc": 1767158608.7243052, "severity": "WARN", "kind": "offset_warn", "message": "Offset 3.049 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:28.724305+00:00", "t_utc": 1767158608.7243052, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:29.737552+00:00", "t_utc": 1767158609.737552, "severity": "WARN", "kind": "offset_warn", "message": "Offset 3.572 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:29.737552+00:00", "t_utc": 1767158609.737552, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:30.750230+00:00", "t_utc": 1767158610.7502303, "severity": "WARN", "kind": "offset_warn", "message": "Offset 3.380 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:30.750230+00:00", "t_utc": 1767158610.7502303, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:31.768053+00:00", "t_utc": 1767158611.7680526, "severity": "WARN", "kind": "offset_warn", "message": "Offset 3.871 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:31.768053+00:00", "t_utc": 1767158611.7680526, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:32.783837+00:00", "t_utc": 1767158612.783837, "severity": "WARN", "kind": "offset_warn", "message": "Offset 3.922 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:32.783837+00:00", "t_utc": 1767158612.783837, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:33.798713+00:00", "t_utc": 1767158613.7987127, "severity": "WARN", "kind": "offset_warn", "message": "Offset 3.823 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:33.798713+00:00", "t_utc": 1767158613.7987127, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:34.816678+00:00", "t_utc": 1767158614.816678, "severity": "WARN", "kind": "offset_warn", "message": "Offset 3.773 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:34.816678+00:00", "t_utc": 1767158614.816678, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:35.837859+00:00", "t_utc": 1767158615.8378594, "severity": "WARN", "kind": "offset_warn", "message": "Offset 3.653 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:35.837859+00:00", "t_utc": 1767158615.8378594, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:36.853374+00:00", "t_utc": 1767158616.853374, "severity": "WARN", "kind": "offset_warn", "message": "Offset 3.322 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:36.853374+00:00", "t_utc": 1767158616.853374, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:37.866879+00:00", "t_utc": 1767158617.8668792, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.356 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:37.866879+00:00", "t_utc": 1767158617.8668792, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:38.686439+00:00", "t_utc": 1767158618.6864393, "severity": "WARN", "kind": "offset_warn", "message": "Offset 3.489 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:38.686439+00:00", "t_utc": 1767158618.6864393, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:39.708821+00:00", "t_utc": 1767158619.7088208, "severity": "WARN", "kind": "offset_warn", "message": "Offset 3.113 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:39.708821+00:00", "t_utc": 1767158619.7088208, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:40.730331+00:00", "t_utc": 1767158620.7303314, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.988 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:40.730331+00:00", "t_utc": 1767158620.7303314, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:41.752381+00:00", "t_utc": 1767158621.7523806, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.557 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:41.752381+00:00", "t_utc": 1767158621.7523806, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:42.773024+00:00", "t_utc": 1767158622.7730243, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.769 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:42.773024+00:00", "t_utc": 1767158622.7730243, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:43.791929+00:00", "t_utc": 1767158623.7919295, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.819 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:43.791929+00:00", "t_utc": 1767158623.7919295, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:44.808465+00:00", "t_utc": 1767158624.8084655, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.039 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:44.808465+00:00", "t_utc": 1767158624.8084655, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:45.830288+00:00", "t_utc": 1767158625.8302877, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.252 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:45.830288+00:00", "t_utc": 1767158625.8302877, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:46.847735+00:00", "t_utc": 1767158626.8477354, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.972 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:46.847735+00:00", "t_utc": 1767158626.8477354, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:47.871443+00:00", "t_utc": 1767158627.8714428, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.666 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:47.871443+00:00", "t_utc": 1767158627.8714428, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:48.892354+00:00", "t_utc": 1767158628.892354, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.866 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:48.892354+00:00", "t_utc": 1767158628.892354, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:49.912213+00:00", "t_utc": 1767158629.912213, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.506 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:49.912213+00:00", "t_utc": 1767158629.912213, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:50.727956+00:00", "t_utc": 1767158630.7279558, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.304 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:50.727956+00:00", "t_utc": 1767158630.7279558, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:51.747143+00:00", "t_utc": 1767158631.7471433, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.235 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:51.747143+00:00", "t_utc": 1767158631.7471433, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:52.767875+00:00", "t_utc": 1767158632.767875, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.181 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:52.767875+00:00", "t_utc": 1767158632.767875, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:53.795096+00:00", "t_utc": 1767158633.795096, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.447 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:53.795096+00:00", "t_utc": 1767158633.795096, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:54.815011+00:00", "t_utc": 1767158634.8150113, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:55.828383+00:00", "t_utc": 1767158635.8283832, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:56.838936+00:00", "t_utc": 1767158636.8389363, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:57.858547+00:00", "t_utc": 1767158637.858547, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.067 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:57.858547+00:00", "t_utc": 1767158637.858547, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:58.885358+00:00", "t_utc": 1767158638.8853576, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:23:59.902210+00:00", "t_utc": 1767158639.9022095, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.251 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:23:59.902210+00:00", "t_utc": 1767158639.9022095, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:00.924892+00:00", "t_utc": 1767158640.9248924, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.217 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:24:00.924892+00:00", "t_utc": 1767158640.9248924, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:01.744003+00:00", "t_utc": 1767158641.7440028, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:02.761553+00:00", "t_utc": 1767158642.761553, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.101 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:24:02.761553+00:00", "t_utc": 1767158642.761553, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:03.788856+00:00", "t_utc": 1767158643.7888556, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:04.805013+00:00", "t_utc": 1767158644.805013, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:05.819907+00:00", "t_utc": 1767158645.8199067, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.055 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:24:05.819907+00:00", "t_utc": 1767158645.8199067, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:06.840917+00:00", "t_utc": 1767158646.8409173, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:07.857885+00:00", "t_utc": 1767158647.8578846, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.272 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:24:07.857885+00:00", "t_utc": 1767158647.8578846, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:08.877230+00:00", "t_utc": 1767158648.8772302, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.105 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:24:08.877230+00:00", "t_utc": 1767158648.8772302, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:09.898336+00:00", "t_utc": 1767158649.898336, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.043 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:24:09.898336+00:00", "t_utc": 1767158649.898336, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:10.926305+00:00", "t_utc": 1767158650.9263053, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:11.945949+00:00", "t_utc": 1767158651.9459486, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:12.757073+00:00", "t_utc": 1767158652.7570727, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:13.774407+00:00", "t_utc": 1767158653.774407, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:14.788802+00:00", "t_utc": 1767158654.7888021, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:15.811064+00:00", "t_utc": 1767158655.811064, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:16.821821+00:00", "t_utc": 1767158656.821821, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:17.837569+00:00", "t_utc": 1767158657.837569, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:18.851390+00:00", "t_utc": 1767158658.8513896, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:19.872191+00:00", "t_utc": 1767158659.872191, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:20.887890+00:00", "t_utc": 1767158660.8878896, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:21.898242+00:00", "t_utc": 1767158661.8982418, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:22.910302+00:00", "t_utc": 1767158662.9103022, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:23.927790+00:00", "t_utc": 1767158663.9277902, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:24.945988+00:00", "t_utc": 1767158664.9459884, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:25.963720+00:00", "t_utc": 1767158665.9637196, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:26.781233+00:00", "t_utc": 1767158666.7812328, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:27.803008+00:00", "t_utc": 1767158667.803008, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:28.832149+00:00", "t_utc": 1767158668.832149, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:29.852885+00:00", "t_utc": 1767158669.8528852, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:30.869493+00:00", "t_utc": 1767158670.8694925, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:31.889134+00:00", "t_utc": 1767158671.8891344, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:32.908027+00:00", "t_utc": 1767158672.9080274, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:33.923589+00:00", "t_utc": 1767158673.9235885, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:34.936139+00:00", "t_utc": 1767158674.9361389, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:35.950492+00:00", "t_utc": 1767158675.9504917, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:36.967580+00:00", "t_utc": 1767158676.9675796, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:37.783929+00:00", "t_utc": 1767158677.7839286, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:38.804944+00:00", "t_utc": 1767158678.8049443, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:39.822689+00:00", "t_utc": 1767158679.8226893, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:40.843351+00:00", "t_utc": 1767158680.843351, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:41.863941+00:00", "t_utc": 1767158681.8639407, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:42.879874+00:00", "t_utc": 1767158682.8798735, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:43.905640+00:00", "t_utc": 1767158683.9056401, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:44.923041+00:00", "t_utc": 1767158684.9230406, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:45.941062+00:00", "t_utc": 1767158685.941062, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:46.956168+00:00", "t_utc": 1767158686.956168, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:47.975892+00:00", "t_utc": 1767158687.9758918, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:48.995737+00:00", "t_utc": 1767158688.995737, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:49.811332+00:00", "t_utc": 1767158689.811332, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:50.830508+00:00", "t_utc": 1767158690.8305075, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:51.849495+00:00", "t_utc": 1767158691.8494954, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:52.868261+00:00", "t_utc": 1767158692.868261, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:53.889582+00:00", "t_utc": 1767158693.8895817, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:54.906155+00:00", "t_utc": 1767158694.906155, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.067 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:24:54.906155+00:00", "t_utc": 1767158694.906155, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:55.926315+00:00", "t_utc": 1767158695.9263148, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:56.946440+00:00", "t_utc": 1767158696.9464395, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:57.971328+00:00", "t_utc": 1767158697.9713275, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:24:58.992285+00:00", "t_utc": 1767158698.992285, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:00.013981+00:00", "t_utc": 1767158700.0139809, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:00.826308+00:00", "t_utc": 1767158700.8263083, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:01.846739+00:00", "t_utc": 1767158701.846739, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:02.867653+00:00", "t_utc": 1767158702.8676531, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:03.895571+00:00", "t_utc": 1767158703.8955708, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:04.913525+00:00", "t_utc": 1767158704.913525, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:05.928792+00:00", "t_utc": 1767158705.9287915, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:06.942272+00:00", "t_utc": 1767158706.9422722, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:07.961043+00:00", "t_utc": 1767158707.9610426, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:08.978710+00:00", "t_utc": 1767158708.9787102, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:09.989642+00:00", "t_utc": 1767158709.9896424, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:11.001523+00:00", "t_utc": 1767158711.001523, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:12.023448+00:00", "t_utc": 1767158712.023448, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:12.839746+00:00", "t_utc": 1767158712.8397462, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:13.853568+00:00", "t_utc": 1767158713.8535676, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:14.875792+00:00", "t_utc": 1767158714.875792, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:15.901227+00:00", "t_utc": 1767158715.9012268, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:16.916215+00:00", "t_utc": 1767158716.9162152, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:17.929378+00:00", "t_utc": 1767158717.929378, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.382 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:25:17.929378+00:00", "t_utc": 1767158717.929378, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:18.956968+00:00", "t_utc": 1767158718.9569676, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 12.947 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:25:18.956968+00:00", "t_utc": 1767158718.9569676, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:19.982413+00:00", "t_utc": 1767158719.982413, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:21.008228+00:00", "t_utc": 1767158721.0082276, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:22.024675+00:00", "t_utc": 1767158722.0246754, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:23.042822+00:00", "t_utc": 1767158723.0428224, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:23.856997+00:00", "t_utc": 1767158723.856997, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:24.872316+00:00", "t_utc": 1767158724.8723164, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:25.890390+00:00", "t_utc": 1767158725.89039, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:26.906224+00:00", "t_utc": 1767158726.9062238, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:27.927415+00:00", "t_utc": 1767158727.927415, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:28.944882+00:00", "t_utc": 1767158728.9448824, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:29.960347+00:00", "t_utc": 1767158729.9603467, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:30.979539+00:00", "t_utc": 1767158730.979539, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:31.992401+00:00", "t_utc": 1767158731.9924006, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:33.005976+00:00", "t_utc": 1767158733.005976, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:34.031613+00:00", "t_utc": 1767158734.0316133, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:35.047629+00:00", "t_utc": 1767158735.0476289, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:35.861081+00:00", "t_utc": 1767158735.861081, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:36.874702+00:00", "t_utc": 1767158736.8747025, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:37.889958+00:00", "t_utc": 1767158737.8899584, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:38.913754+00:00", "t_utc": 1767158738.9137535, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:39.936778+00:00", "t_utc": 1767158739.9367783, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:40.959093+00:00", "t_utc": 1767158740.959093, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:41.983367+00:00", "t_utc": 1767158741.9833672, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:43.003696+00:00", "t_utc": 1767158743.0036964, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:44.024268+00:00", "t_utc": 1767158744.0242684, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:45.042517+00:00", "t_utc": 1767158745.042517, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:46.055960+00:00", "t_utc": 1767158746.0559604, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:47.072373+00:00", "t_utc": 1767158747.072373, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:47.889992+00:00", "t_utc": 1767158747.8899922, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:48.908055+00:00", "t_utc": 1767158748.9080553, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:49.917143+00:00", "t_utc": 1767158749.917143, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:50.927519+00:00", "t_utc": 1767158750.927519, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:51.946461+00:00", "t_utc": 1767158751.9464614, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:52.961224+00:00", "t_utc": 1767158752.9612236, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:53.985228+00:00", "t_utc": 1767158753.9852283, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:54.998941+00:00", "t_utc": 1767158754.998941, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:56.008715+00:00", "t_utc": 1767158756.0087152, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:57.024393+00:00", "t_utc": 1767158757.0243926, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:58.041928+00:00", "t_utc": 1767158758.0419276, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:25:59.064172+00:00", "t_utc": 1767158759.0641723, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:00.081480+00:00", "t_utc": 1767158760.08148, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:01.095977+00:00", "t_utc": 1767158761.0959766, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:01.908796+00:00", "t_utc": 1767158761.9087956, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:02.926430+00:00", "t_utc": 1767158762.92643, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:03.944854+00:00", "t_utc": 1767158763.9448535, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:04.957944+00:00", "t_utc": 1767158764.957944, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:05.972591+00:00", "t_utc": 1767158765.9725914, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:06.981834+00:00", "t_utc": 1767158766.981834, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:07.994011+00:00", "t_utc": 1767158767.9940107, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:09.014678+00:00", "t_utc": 1767158769.0146782, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:10.025786+00:00", "t_utc": 1767158770.025786, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:11.036703+00:00", "t_utc": 1767158771.0367033, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:12.055259+00:00", "t_utc": 1767158772.0552592, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:13.068406+00:00", "t_utc": 1767158773.0684059, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:14.096902+00:00", "t_utc": 1767158774.0969021, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:15.107179+00:00", "t_utc": 1767158775.1071792, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:16.121287+00:00", "t_utc": 1767158776.1212873, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:17.136433+00:00", "t_utc": 1767158777.1364331, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:17.946865+00:00", "t_utc": 1767158777.9468653, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:18.967158+00:00", "t_utc": 1767158778.9671583, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:19.979728+00:00", "t_utc": 1767158779.9797282, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:20.997424+00:00", "t_utc": 1767158780.9974244, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:22.012705+00:00", "t_utc": 1767158782.0127046, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:23.023857+00:00", "t_utc": 1767158783.0238569, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:24.035931+00:00", "t_utc": 1767158784.0359313, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:25.044730+00:00", "t_utc": 1767158785.04473, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:26.056778+00:00", "t_utc": 1767158786.056778, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:27.069919+00:00", "t_utc": 1767158787.0699189, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:28.087976+00:00", "t_utc": 1767158788.087976, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:29.106992+00:00", "t_utc": 1767158789.1069922, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:30.123046+00:00", "t_utc": 1767158790.123046, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:31.140558+00:00", "t_utc": 1767158791.1405578, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:32.164413+00:00", "t_utc": 1767158792.1644135, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:32.979156+00:00", "t_utc": 1767158792.9791555, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:34.010809+00:00", "t_utc": 1767158794.0108094, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:35.037366+00:00", "t_utc": 1767158795.037366, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:36.054416+00:00", "t_utc": 1767158796.0544164, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:37.073444+00:00", "t_utc": 1767158797.0734441, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:38.095740+00:00", "t_utc": 1767158798.0957396, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:39.115474+00:00", "t_utc": 1767158799.1154737, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:40.135159+00:00", "t_utc": 1767158800.135159, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:41.152622+00:00", "t_utc": 1767158801.1526215, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:42.177945+00:00", "t_utc": 1767158802.1779447, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:43.200817+00:00", "t_utc": 1767158803.200817, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:44.018295+00:00", "t_utc": 1767158804.0182948, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:45.041328+00:00", "t_utc": 1767158805.041328, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:46.061296+00:00", "t_utc": 1767158806.0612965, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:47.084366+00:00", "t_utc": 1767158807.0843656, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:48.105883+00:00", "t_utc": 1767158808.1058826, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:49.126036+00:00", "t_utc": 1767158809.126036, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:50.149858+00:00", "t_utc": 1767158810.1498575, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:51.163400+00:00", "t_utc": 1767158811.1634004, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:52.178813+00:00", "t_utc": 1767158812.1788135, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:53.188920+00:00", "t_utc": 1767158813.1889203, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:54.211925+00:00", "t_utc": 1767158814.211925, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:55.231422+00:00", "t_utc": 1767158815.2314224, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:56.041445+00:00", "t_utc": 1767158816.041445, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:57.056238+00:00", "t_utc": 1767158817.0562384, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.642 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:26:57.056238+00:00", "t_utc": 1767158817.0562384, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:58.078081+00:00", "t_utc": 1767158818.0780814, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:26:59.103595+00:00", "t_utc": 1767158819.1035955, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:00.123020+00:00", "t_utc": 1767158820.1230197, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:01.145177+00:00", "t_utc": 1767158821.145177, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:02.162029+00:00", "t_utc": 1767158822.162029, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:03.178496+00:00", "t_utc": 1767158823.178496, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:04.195932+00:00", "t_utc": 1767158824.1959317, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:05.214515+00:00", "t_utc": 1767158825.2145154, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:06.233817+00:00", "t_utc": 1767158826.2338169, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:07.252384+00:00", "t_utc": 1767158827.2523842, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:08.071430+00:00", "t_utc": 1767158828.0714302, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:09.083796+00:00", "t_utc": 1767158829.083796, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:10.105201+00:00", "t_utc": 1767158830.1052015, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.682 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:27:10.105201+00:00", "t_utc": 1767158830.1052015, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:11.129174+00:00", "t_utc": 1767158831.1291738, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.735 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:27:11.129174+00:00", "t_utc": 1767158831.1291738, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:12.152871+00:00", "t_utc": 1767158832.1528711, "severity": "WARN", "kind": "offset_warn", "message": "Offset 4.622 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:27:12.152871+00:00", "t_utc": 1767158832.1528711, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:13.174634+00:00", "t_utc": 1767158833.1746337, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 5.433 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:13.174634+00:00", "t_utc": 1767158833.1746337, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:14.198195+00:00", "t_utc": 1767158834.198195, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 6.571 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:14.198195+00:00", "t_utc": 1767158834.198195, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:15.223186+00:00", "t_utc": 1767158835.2231865, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 7.292 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:15.223186+00:00", "t_utc": 1767158835.2231865, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:16.246232+00:00", "t_utc": 1767158836.2462318, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 7.450 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:16.246232+00:00", "t_utc": 1767158836.2462318, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:17.266827+00:00", "t_utc": 1767158837.2668273, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 8.015 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:17.266827+00:00", "t_utc": 1767158837.2668273, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:18.088436+00:00", "t_utc": 1767158838.0884361, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 8.852 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:18.088436+00:00", "t_utc": 1767158838.0884361, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:19.103949+00:00", "t_utc": 1767158839.103949, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 9.160 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:19.103949+00:00", "t_utc": 1767158839.103949, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:20.129018+00:00", "t_utc": 1767158840.129018, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 9.195 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:20.129018+00:00", "t_utc": 1767158840.129018, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:21.148902+00:00", "t_utc": 1767158841.1489024, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 9.465 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:21.148902+00:00", "t_utc": 1767158841.1489024, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:22.173805+00:00", "t_utc": 1767158842.1738055, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 9.208 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:22.173805+00:00", "t_utc": 1767158842.1738055, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:23.195332+00:00", "t_utc": 1767158843.1953316, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 9.816 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:23.195332+00:00", "t_utc": 1767158843.1953316, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:24.215131+00:00", "t_utc": 1767158844.2151308, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 9.557 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:24.215131+00:00", "t_utc": 1767158844.2151308, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:25.240729+00:00", "t_utc": 1767158845.2407289, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 9.402 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:25.240729+00:00", "t_utc": 1767158845.2407289, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:26.266796+00:00", "t_utc": 1767158846.2667956, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 9.330 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:26.266796+00:00", "t_utc": 1767158846.2667956, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:27.281304+00:00", "t_utc": 1767158847.2813044, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 9.229 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:27.281304+00:00", "t_utc": 1767158847.2813044, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:28.306138+00:00", "t_utc": 1767158848.3061376, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 8.981 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:28.306138+00:00", "t_utc": 1767158848.3061376, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:29.125014+00:00", "t_utc": 1767158849.125014, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 8.852 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:29.125014+00:00", "t_utc": 1767158849.125014, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:30.152308+00:00", "t_utc": 1767158850.152308, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 7.998 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:30.152308+00:00", "t_utc": 1767158850.152308, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:31.197383+00:00", "t_utc": 1767158851.197383, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 8.617 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:31.197383+00:00", "t_utc": 1767158851.197383, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:32.223176+00:00", "t_utc": 1767158852.2231755, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 8.400 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:32.223176+00:00", "t_utc": 1767158852.2231755, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:33.248894+00:00", "t_utc": 1767158853.2488937, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 8.550 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:33.248894+00:00", "t_utc": 1767158853.2488937, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:34.261798+00:00", "t_utc": 1767158854.2617981, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 7.734 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:34.261798+00:00", "t_utc": 1767158854.2617981, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:35.285339+00:00", "t_utc": 1767158855.2853389, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 7.284 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:35.285339+00:00", "t_utc": 1767158855.2853389, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:36.304897+00:00", "t_utc": 1767158856.3048966, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 7.088 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:36.304897+00:00", "t_utc": 1767158856.3048966, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:37.332414+00:00", "t_utc": 1767158857.3324142, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 6.950 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:37.332414+00:00", "t_utc": 1767158857.3324142, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:38.154439+00:00", "t_utc": 1767158858.154439, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 6.633 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:38.154439+00:00", "t_utc": 1767158858.154439, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:39.176008+00:00", "t_utc": 1767158859.1760075, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 6.416 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:39.176008+00:00", "t_utc": 1767158859.1760075, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:40.199395+00:00", "t_utc": 1767158860.1993954, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 6.428 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:40.199395+00:00", "t_utc": 1767158860.1993954, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:41.223510+00:00", "t_utc": 1767158861.2235096, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 5.739 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:41.223510+00:00", "t_utc": 1767158861.2235096, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:42.252334+00:00", "t_utc": 1767158862.252334, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 6.262 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:42.252334+00:00", "t_utc": 1767158862.252334, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:43.273864+00:00", "t_utc": 1767158863.2738643, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 5.775 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:43.273864+00:00", "t_utc": 1767158863.2738643, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:44.299860+00:00", "t_utc": 1767158864.2998605, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 5.135 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:44.299860+00:00", "t_utc": 1767158864.2998605, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:45.317505+00:00", "t_utc": 1767158865.3175051, "severity": "ALARM", "kind": "offset_alarm", "message": "Offset 5.221 ms >= 5.0 ms"}
+{"timestamp": "2025-12-31T05:27:45.317505+00:00", "t_utc": 1767158865.3175051, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:46.343806+00:00", "t_utc": 1767158866.3438056, "severity": "WARN", "kind": "offset_warn", "message": "Offset 4.728 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:27:46.343806+00:00", "t_utc": 1767158866.3438056, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:47.358355+00:00", "t_utc": 1767158867.3583548, "severity": "WARN", "kind": "offset_warn", "message": "Offset 4.886 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:27:47.358355+00:00", "t_utc": 1767158867.3583548, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:48.181223+00:00", "t_utc": 1767158868.1812227, "severity": "WARN", "kind": "offset_warn", "message": "Offset 4.048 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:27:48.181223+00:00", "t_utc": 1767158868.1812227, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:49.214189+00:00", "t_utc": 1767158869.2141886, "severity": "WARN", "kind": "offset_warn", "message": "Offset 3.954 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:27:49.214189+00:00", "t_utc": 1767158869.2141886, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:50.242248+00:00", "t_utc": 1767158870.2422478, "severity": "WARN", "kind": "offset_warn", "message": "Offset 3.752 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:27:50.242248+00:00", "t_utc": 1767158870.2422478, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:51.263967+00:00", "t_utc": 1767158871.2639668, "severity": "WARN", "kind": "offset_warn", "message": "Offset 3.560 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:27:51.263967+00:00", "t_utc": 1767158871.2639668, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:52.287025+00:00", "t_utc": 1767158872.2870247, "severity": "WARN", "kind": "offset_warn", "message": "Offset 3.045 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:27:52.287025+00:00", "t_utc": 1767158872.2870247, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:53.303854+00:00", "t_utc": 1767158873.3038542, "severity": "WARN", "kind": "offset_warn", "message": "Offset 3.064 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:27:53.303854+00:00", "t_utc": 1767158873.3038542, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:54.326645+00:00", "t_utc": 1767158874.3266447, "severity": "WARN", "kind": "offset_warn", "message": "Offset 3.309 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:27:54.326645+00:00", "t_utc": 1767158874.3266447, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:55.347351+00:00", "t_utc": 1767158875.3473513, "severity": "WARN", "kind": "offset_warn", "message": "Offset 3.109 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:27:55.347351+00:00", "t_utc": 1767158875.3473513, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:56.370875+00:00", "t_utc": 1767158876.3708754, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.583 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:27:56.370875+00:00", "t_utc": 1767158876.3708754, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:57.190973+00:00", "t_utc": 1767158877.1909733, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.509 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:27:57.190973+00:00", "t_utc": 1767158877.1909733, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:58.206885+00:00", "t_utc": 1767158878.206885, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.467 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:27:58.206885+00:00", "t_utc": 1767158878.206885, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:27:59.236040+00:00", "t_utc": 1767158879.2360399, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.147 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:27:59.236040+00:00", "t_utc": 1767158879.2360399, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:00.263963+00:00", "t_utc": 1767158880.2639635, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.735 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:00.263963+00:00", "t_utc": 1767158880.2639635, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:01.286927+00:00", "t_utc": 1767158881.2869265, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.664 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:01.286927+00:00", "t_utc": 1767158881.2869265, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:02.306802+00:00", "t_utc": 1767158882.306802, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.567 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:02.306802+00:00", "t_utc": 1767158882.306802, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:03.330039+00:00", "t_utc": 1767158883.3300393, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.266 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:03.330039+00:00", "t_utc": 1767158883.3300393, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:04.356375+00:00", "t_utc": 1767158884.356375, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.208 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:04.356375+00:00", "t_utc": 1767158884.356375, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:05.380055+00:00", "t_utc": 1767158885.3800552, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.018 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:05.380055+00:00", "t_utc": 1767158885.3800552, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:06.402017+00:00", "t_utc": 1767158886.402017, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:07.212559+00:00", "t_utc": 1767158887.2125592, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:08.229399+00:00", "t_utc": 1767158888.2293987, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:09.245220+00:00", "t_utc": 1767158889.2452204, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:10.258549+00:00", "t_utc": 1767158890.258549, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:11.270445+00:00", "t_utc": 1767158891.270445, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:12.287928+00:00", "t_utc": 1767158892.2879279, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:13.300672+00:00", "t_utc": 1767158893.300672, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:14.321149+00:00", "t_utc": 1767158894.3211493, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:15.335563+00:00", "t_utc": 1767158895.335563, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:16.357876+00:00", "t_utc": 1767158896.3578763, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:17.372464+00:00", "t_utc": 1767158897.3724642, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:18.386912+00:00", "t_utc": 1767158898.3869123, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:19.402884+00:00", "t_utc": 1767158899.4028835, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:20.420971+00:00", "t_utc": 1767158900.420971, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:21.233859+00:00", "t_utc": 1767158901.2338593, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.120 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:21.233859+00:00", "t_utc": 1767158901.2338593, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:22.253185+00:00", "t_utc": 1767158902.253185, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:23.270452+00:00", "t_utc": 1767158903.2704525, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.084 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:23.270452+00:00", "t_utc": 1767158903.2704525, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:24.291800+00:00", "t_utc": 1767158904.2917998, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.051 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:24.291800+00:00", "t_utc": 1767158904.2917998, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:25.310674+00:00", "t_utc": 1767158905.3106737, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:26.325984+00:00", "t_utc": 1767158906.3259842, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.581 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:26.325984+00:00", "t_utc": 1767158906.3259842, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:27.335328+00:00", "t_utc": 1767158907.335328, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.602 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:27.335328+00:00", "t_utc": 1767158907.335328, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:28.355371+00:00", "t_utc": 1767158908.3553708, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:29.372347+00:00", "t_utc": 1767158909.3723466, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.054 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:29.372347+00:00", "t_utc": 1767158909.3723466, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:30.394303+00:00", "t_utc": 1767158910.394303, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.140 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:30.394303+00:00", "t_utc": 1767158910.394303, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:31.414291+00:00", "t_utc": 1767158911.4142914, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.487 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:31.414291+00:00", "t_utc": 1767158911.4142914, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:32.427381+00:00", "t_utc": 1767158912.4273806, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.300 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:32.427381+00:00", "t_utc": 1767158912.4273806, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:33.443831+00:00", "t_utc": 1767158913.4438312, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.804 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:33.443831+00:00", "t_utc": 1767158913.4438312, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:34.258827+00:00", "t_utc": 1767158914.2588272, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.469 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:34.258827+00:00", "t_utc": 1767158914.2588272, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:35.285991+00:00", "t_utc": 1767158915.285991, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.575 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:35.285991+00:00", "t_utc": 1767158915.285991, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:36.315688+00:00", "t_utc": 1767158916.315688, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.604 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:36.315688+00:00", "t_utc": 1767158916.315688, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:37.337841+00:00", "t_utc": 1767158917.3378408, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.167 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:37.337841+00:00", "t_utc": 1767158917.3378408, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:38.376062+00:00", "t_utc": 1767158918.3760617, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.082 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:38.376062+00:00", "t_utc": 1767158918.3760617, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:39.399280+00:00", "t_utc": 1767158919.3992798, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.060 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:39.399280+00:00", "t_utc": 1767158919.3992798, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:40.415391+00:00", "t_utc": 1767158920.4153914, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.790 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:40.415391+00:00", "t_utc": 1767158920.4153914, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:41.439877+00:00", "t_utc": 1767158921.4398766, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.116 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:41.439877+00:00", "t_utc": 1767158921.4398766, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:42.459283+00:00", "t_utc": 1767158922.4592829, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.893 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:42.459283+00:00", "t_utc": 1767158922.4592829, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:43.278873+00:00", "t_utc": 1767158923.2788727, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.014 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:43.278873+00:00", "t_utc": 1767158923.2788727, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:44.306328+00:00", "t_utc": 1767158924.3063276, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.429 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:44.306328+00:00", "t_utc": 1767158924.3063276, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:45.330483+00:00", "t_utc": 1767158925.3304832, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.909 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:45.330483+00:00", "t_utc": 1767158925.3304832, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:46.347586+00:00", "t_utc": 1767158926.3475857, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.546 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:46.347586+00:00", "t_utc": 1767158926.3475857, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:47.372783+00:00", "t_utc": 1767158927.3727834, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.074 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:47.372783+00:00", "t_utc": 1767158927.3727834, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:48.399941+00:00", "t_utc": 1767158928.3999412, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.887 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:48.399941+00:00", "t_utc": 1767158928.3999412, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:49.422893+00:00", "t_utc": 1767158929.4228933, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.656 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:49.422893+00:00", "t_utc": 1767158929.4228933, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:50.445133+00:00", "t_utc": 1767158930.4451332, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.658 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:50.445133+00:00", "t_utc": 1767158930.4451332, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:51.470258+00:00", "t_utc": 1767158931.4702578, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.799 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:51.470258+00:00", "t_utc": 1767158931.4702578, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:52.483610+00:00", "t_utc": 1767158932.4836104, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.479 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:52.483610+00:00", "t_utc": 1767158932.4836104, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:53.305623+00:00", "t_utc": 1767158933.305623, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.928 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:53.305623+00:00", "t_utc": 1767158933.305623, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:54.326138+00:00", "t_utc": 1767158934.3261378, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.033 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:54.326138+00:00", "t_utc": 1767158934.3261378, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:55.343448+00:00", "t_utc": 1767158935.3434484, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.758 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:55.343448+00:00", "t_utc": 1767158935.3434484, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:56.370328+00:00", "t_utc": 1767158936.3703277, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.130 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:56.370328+00:00", "t_utc": 1767158936.3703277, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:57.385038+00:00", "t_utc": 1767158937.385038, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.032 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:57.385038+00:00", "t_utc": 1767158937.385038, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:58.407701+00:00", "t_utc": 1767158938.4077008, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.914 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:58.407701+00:00", "t_utc": 1767158938.4077008, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:28:59.425904+00:00", "t_utc": 1767158939.425904, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.575 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:28:59.425904+00:00", "t_utc": 1767158939.425904, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:00.447043+00:00", "t_utc": 1767158940.4470434, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.563 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:29:00.447043+00:00", "t_utc": 1767158940.4470434, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:01.470043+00:00", "t_utc": 1767158941.470043, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.008 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:29:01.470043+00:00", "t_utc": 1767158941.470043, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:02.484186+00:00", "t_utc": 1767158942.484186, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.036 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:29:02.484186+00:00", "t_utc": 1767158942.484186, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:03.506411+00:00", "t_utc": 1767158943.5064113, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.215 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:29:03.506411+00:00", "t_utc": 1767158943.5064113, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:04.318799+00:00", "t_utc": 1767158944.3187988, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.593 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:29:04.318799+00:00", "t_utc": 1767158944.3187988, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:05.336421+00:00", "t_utc": 1767158945.3364208, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.355 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:29:05.336421+00:00", "t_utc": 1767158945.3364208, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:06.359149+00:00", "t_utc": 1767158946.3591495, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.027 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:29:06.359149+00:00", "t_utc": 1767158946.3591495, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:07.382396+00:00", "t_utc": 1767158947.382396, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:08.403764+00:00", "t_utc": 1767158948.4037642, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.155 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:29:08.403764+00:00", "t_utc": 1767158948.4037642, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:09.424196+00:00", "t_utc": 1767158949.424196, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.534 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:29:09.424196+00:00", "t_utc": 1767158949.424196, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:10.441530+00:00", "t_utc": 1767158950.4415298, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.517 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:29:10.441530+00:00", "t_utc": 1767158950.4415298, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:11.462201+00:00", "t_utc": 1767158951.4622009, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.049 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:29:11.462201+00:00", "t_utc": 1767158951.4622009, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:12.483769+00:00", "t_utc": 1767158952.4837694, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.900 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:29:12.483769+00:00", "t_utc": 1767158952.4837694, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:13.500396+00:00", "t_utc": 1767158953.5003958, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.217 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:29:13.500396+00:00", "t_utc": 1767158953.5003958, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:14.517955+00:00", "t_utc": 1767158954.5179548, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.873 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:29:14.517955+00:00", "t_utc": 1767158954.5179548, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:15.338052+00:00", "t_utc": 1767158955.3380518, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.264 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:29:15.338052+00:00", "t_utc": 1767158955.3380518, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:16.366256+00:00", "t_utc": 1767158956.3662555, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.027 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:29:16.366256+00:00", "t_utc": 1767158956.3662555, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:17.390050+00:00", "t_utc": 1767158957.3900497, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.129 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:29:17.390050+00:00", "t_utc": 1767158957.3900497, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:18.415033+00:00", "t_utc": 1767158958.4150333, "severity": "WARN", "kind": "offset_warn", "message": "Offset 2.194 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:29:18.415033+00:00", "t_utc": 1767158958.4150333, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:19.433583+00:00", "t_utc": 1767158959.433583, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.473 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:29:19.433583+00:00", "t_utc": 1767158959.433583, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:20.455137+00:00", "t_utc": 1767158960.4551368, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.060 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:29:20.455137+00:00", "t_utc": 1767158960.4551368, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:21.476410+00:00", "t_utc": 1767158961.4764102, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:22.493901+00:00", "t_utc": 1767158962.493901, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:23.505067+00:00", "t_utc": 1767158963.5050666, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:24.524596+00:00", "t_utc": 1767158964.5245957, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:25.539261+00:00", "t_utc": 1767158965.5392606, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:26.557136+00:00", "t_utc": 1767158966.5571356, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:27.370983+00:00", "t_utc": 1767158967.3709826, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:28.392254+00:00", "t_utc": 1767158968.392254, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:29.408991+00:00", "t_utc": 1767158969.4089909, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:30.420357+00:00", "t_utc": 1767158970.4203568, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:31.437522+00:00", "t_utc": 1767158971.4375217, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:32.454679+00:00", "t_utc": 1767158972.454679, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:33.476069+00:00", "t_utc": 1767158973.4760695, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:34.502510+00:00", "t_utc": 1767158974.5025096, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:35.522117+00:00", "t_utc": 1767158975.522117, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:36.539559+00:00", "t_utc": 1767158976.5395594, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:37.561422+00:00", "t_utc": 1767158977.5614223, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:38.376747+00:00", "t_utc": 1767158978.3767474, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:39.398098+00:00", "t_utc": 1767158979.3980975, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:40.406981+00:00", "t_utc": 1767158980.4069812, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:41.422457+00:00", "t_utc": 1767158981.4224565, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:42.438519+00:00", "t_utc": 1767158982.4385195, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:43.459634+00:00", "t_utc": 1767158983.4596336, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:44.474825+00:00", "t_utc": 1767158984.4748247, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:45.491244+00:00", "t_utc": 1767158985.4912438, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:46.508150+00:00", "t_utc": 1767158986.50815, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:47.521104+00:00", "t_utc": 1767158987.5211039, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:48.545043+00:00", "t_utc": 1767158988.5450435, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:49.558033+00:00", "t_utc": 1767158989.5580328, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:50.575745+00:00", "t_utc": 1767158990.5757453, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.291 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:29:50.575745+00:00", "t_utc": 1767158990.5757453, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:51.396816+00:00", "t_utc": 1767158991.3968165, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:52.418568+00:00", "t_utc": 1767158992.4185681, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:53.438261+00:00", "t_utc": 1767158993.4382606, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:54.455317+00:00", "t_utc": 1767158994.455317, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:55.472767+00:00", "t_utc": 1767158995.472767, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:56.487374+00:00", "t_utc": 1767158996.4873743, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:57.503502+00:00", "t_utc": 1767158997.503502, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.969 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:29:57.503502+00:00", "t_utc": 1767158997.503502, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:58.522710+00:00", "t_utc": 1767158998.5227098, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:29:59.533788+00:00", "t_utc": 1767158999.533788, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:00.548123+00:00", "t_utc": 1767159000.5481234, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:01.559764+00:00", "t_utc": 1767159001.559764, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:02.573465+00:00", "t_utc": 1767159002.5734646, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:03.596675+00:00", "t_utc": 1767159003.5966754, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:04.414795+00:00", "t_utc": 1767159004.4147952, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:05.425811+00:00", "t_utc": 1767159005.425811, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:06.439302+00:00", "t_utc": 1767159006.439302, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:07.457058+00:00", "t_utc": 1767159007.4570582, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:08.482931+00:00", "t_utc": 1767159008.4829307, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:09.503410+00:00", "t_utc": 1767159009.5034099, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:10.525019+00:00", "t_utc": 1767159010.5250194, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:11.538028+00:00", "t_utc": 1767159011.538028, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:12.554759+00:00", "t_utc": 1767159012.5547593, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:13.579725+00:00", "t_utc": 1767159013.5797246, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:14.601162+00:00", "t_utc": 1767159014.601162, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:15.619262+00:00", "t_utc": 1767159015.6192615, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:16.634506+00:00", "t_utc": 1767159016.6345062, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:17.446771+00:00", "t_utc": 1767159017.4467707, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:18.461801+00:00", "t_utc": 1767159018.461801, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.036 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:30:18.461801+00:00", "t_utc": 1767159018.461801, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:19.482894+00:00", "t_utc": 1767159019.4828937, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:20.496266+00:00", "t_utc": 1767159020.4962661, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:21.515124+00:00", "t_utc": 1767159021.5151243, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:22.527009+00:00", "t_utc": 1767159022.5270095, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:23.545809+00:00", "t_utc": 1767159023.5458088, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:24.564875+00:00", "t_utc": 1767159024.5648754, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:25.586574+00:00", "t_utc": 1767159025.5865743, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:26.605816+00:00", "t_utc": 1767159026.6058164, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:27.618307+00:00", "t_utc": 1767159027.6183069, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:28.640738+00:00", "t_utc": 1767159028.6407375, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:29.655200+00:00", "t_utc": 1767159029.6552002, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:30.463975+00:00", "t_utc": 1767159030.4639754, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:31.473890+00:00", "t_utc": 1767159031.4738898, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:32.488714+00:00", "t_utc": 1767159032.4887137, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:33.506096+00:00", "t_utc": 1767159033.5060961, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.120 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:30:33.506096+00:00", "t_utc": 1767159033.5060961, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:34.534056+00:00", "t_utc": 1767159034.5340564, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:35.551208+00:00", "t_utc": 1767159035.5512083, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:36.568157+00:00", "t_utc": 1767159036.568157, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:37.580760+00:00", "t_utc": 1767159037.5807598, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.151 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:30:37.580760+00:00", "t_utc": 1767159037.5807598, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:38.608864+00:00", "t_utc": 1767159038.6088638, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:39.621321+00:00", "t_utc": 1767159039.6213207, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.099 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:30:39.621321+00:00", "t_utc": 1767159039.6213207, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:40.637106+00:00", "t_utc": 1767159040.6371057, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:41.656268+00:00", "t_utc": 1767159041.6562681, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:42.672266+00:00", "t_utc": 1767159042.6722655, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:43.491336+00:00", "t_utc": 1767159043.4913356, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:44.517607+00:00", "t_utc": 1767159044.5176072, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:45.537802+00:00", "t_utc": 1767159045.5378025, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.424 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:30:45.537802+00:00", "t_utc": 1767159045.5378025, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:46.553899+00:00", "t_utc": 1767159046.5538988, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.338 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:30:46.553899+00:00", "t_utc": 1767159046.5538988, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:47.571158+00:00", "t_utc": 1767159047.571158, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.267 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:30:47.571158+00:00", "t_utc": 1767159047.571158, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:48.597069+00:00", "t_utc": 1767159048.597069, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.249 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:30:48.597069+00:00", "t_utc": 1767159048.597069, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:49.621171+00:00", "t_utc": 1767159049.6211708, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.270 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:30:49.621171+00:00", "t_utc": 1767159049.6211708, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:50.643545+00:00", "t_utc": 1767159050.6435452, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.184 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:30:50.643545+00:00", "t_utc": 1767159050.6435452, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:51.664921+00:00", "t_utc": 1767159051.6649206, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.213 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:30:51.664921+00:00", "t_utc": 1767159051.6649206, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:52.684130+00:00", "t_utc": 1767159052.6841297, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:53.699485+00:00", "t_utc": 1767159053.6994848, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.182 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:30:53.699485+00:00", "t_utc": 1767159053.6994848, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:54.516341+00:00", "t_utc": 1767159054.5163407, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.192 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:30:54.516341+00:00", "t_utc": 1767159054.5163407, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:55.539420+00:00", "t_utc": 1767159055.53942, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.043 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:30:55.539420+00:00", "t_utc": 1767159055.53942, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:56.559864+00:00", "t_utc": 1767159056.5598638, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.077 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:30:56.559864+00:00", "t_utc": 1767159056.5598638, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:57.579121+00:00", "t_utc": 1767159057.579121, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.000 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:30:57.579121+00:00", "t_utc": 1767159057.579121, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:58.596605+00:00", "t_utc": 1767159058.5966046, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:30:59.609349+00:00", "t_utc": 1767159059.609349, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:00.625485+00:00", "t_utc": 1767159060.6254854, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:01.640176+00:00", "t_utc": 1767159061.6401756, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:02.658194+00:00", "t_utc": 1767159062.6581938, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.011 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:02.658194+00:00", "t_utc": 1767159062.6581938, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:03.678824+00:00", "t_utc": 1767159063.6788242, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:04.696169+00:00", "t_utc": 1767159064.6961691, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.348 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:04.696169+00:00", "t_utc": 1767159064.6961691, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:05.718589+00:00", "t_utc": 1767159065.7185886, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.138 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:05.718589+00:00", "t_utc": 1767159065.7185886, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:06.535392+00:00", "t_utc": 1767159066.535392, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.518 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:06.535392+00:00", "t_utc": 1767159066.535392, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:07.550879+00:00", "t_utc": 1767159067.550879, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.483 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:07.550879+00:00", "t_utc": 1767159067.550879, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:08.570474+00:00", "t_utc": 1767159068.570474, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.410 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:08.570474+00:00", "t_utc": 1767159068.570474, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:09.591907+00:00", "t_utc": 1767159069.591907, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.073 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:09.591907+00:00", "t_utc": 1767159069.591907, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:10.610727+00:00", "t_utc": 1767159070.610727, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:11.630771+00:00", "t_utc": 1767159071.6307712, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:12.649721+00:00", "t_utc": 1767159072.6497207, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:13.665641+00:00", "t_utc": 1767159073.665641, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.067 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:13.665641+00:00", "t_utc": 1767159073.665641, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:14.690687+00:00", "t_utc": 1767159074.6906874, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.318 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:14.690687+00:00", "t_utc": 1767159074.6906874, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:15.717797+00:00", "t_utc": 1767159075.7177968, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:16.739325+00:00", "t_utc": 1767159076.739325, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.050 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:16.739325+00:00", "t_utc": 1767159076.739325, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:17.561623+00:00", "t_utc": 1767159077.5616233, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.077 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:17.561623+00:00", "t_utc": 1767159077.5616233, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:18.584399+00:00", "t_utc": 1767159078.584399, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.445 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:18.584399+00:00", "t_utc": 1767159078.584399, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:19.611317+00:00", "t_utc": 1767159079.611317, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.706 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:19.611317+00:00", "t_utc": 1767159079.611317, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:20.621387+00:00", "t_utc": 1767159080.6213865, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.516 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:20.621387+00:00", "t_utc": 1767159080.6213865, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:21.646142+00:00", "t_utc": 1767159081.6461415, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:22.665845+00:00", "t_utc": 1767159082.6658454, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:23.695518+00:00", "t_utc": 1767159083.6955185, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:24.722179+00:00", "t_utc": 1767159084.7221792, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.155 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:24.722179+00:00", "t_utc": 1767159084.7221792, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:25.740680+00:00", "t_utc": 1767159085.7406802, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:26.758559+00:00", "t_utc": 1767159086.7585585, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.016 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:26.758559+00:00", "t_utc": 1767159086.7585585, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:27.576622+00:00", "t_utc": 1767159087.5766222, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:28.596677+00:00", "t_utc": 1767159088.5966773, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.137 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:28.596677+00:00", "t_utc": 1767159088.5966773, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:29.613409+00:00", "t_utc": 1767159089.613409, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.315 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:29.613409+00:00", "t_utc": 1767159089.613409, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:30.634609+00:00", "t_utc": 1767159090.634609, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.439 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:30.634609+00:00", "t_utc": 1767159090.634609, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:31.653362+00:00", "t_utc": 1767159091.6533623, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.443 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:31.653362+00:00", "t_utc": 1767159091.6533623, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:32.670568+00:00", "t_utc": 1767159092.6705675, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.473 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:32.670568+00:00", "t_utc": 1767159092.6705675, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:33.693197+00:00", "t_utc": 1767159093.6931965, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:34.713650+00:00", "t_utc": 1767159094.7136502, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:35.734353+00:00", "t_utc": 1767159095.7343533, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.171 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:35.734353+00:00", "t_utc": 1767159095.7343533, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:36.753465+00:00", "t_utc": 1767159096.7534652, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:37.766967+00:00", "t_utc": 1767159097.7669666, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.388 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:37.766967+00:00", "t_utc": 1767159097.7669666, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:38.792181+00:00", "t_utc": 1767159098.7921805, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.134 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:38.792181+00:00", "t_utc": 1767159098.7921805, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:39.611789+00:00", "t_utc": 1767159099.6117885, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:40.626239+00:00", "t_utc": 1767159100.6262388, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.091 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:40.626239+00:00", "t_utc": 1767159100.6262388, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:41.652451+00:00", "t_utc": 1767159101.652451, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:42.669029+00:00", "t_utc": 1767159102.6690292, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.200 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:42.669029+00:00", "t_utc": 1767159102.6690292, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:43.690425+00:00", "t_utc": 1767159103.690425, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:44.709728+00:00", "t_utc": 1767159104.709728, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.243 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:44.709728+00:00", "t_utc": 1767159104.709728, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:45.730365+00:00", "t_utc": 1767159105.730365, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.616 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:45.730365+00:00", "t_utc": 1767159105.730365, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:46.746110+00:00", "t_utc": 1767159106.74611, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.364 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:46.746110+00:00", "t_utc": 1767159106.74611, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:47.763319+00:00", "t_utc": 1767159107.7633195, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.415 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:47.763319+00:00", "t_utc": 1767159107.7633195, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}
+{"timestamp": "2025-12-31T05:31:48.786139+00:00", "t_utc": 1767159108.7861388, "severity": "WARN", "kind": "offset_warn", "message": "Offset 1.051 ms >= 1.0 ms"}
+{"timestamp": "2025-12-31T05:31:48.786139+00:00", "t_utc": 1767159108.7861388, "severity": "INFO", "kind": "servo_state", "message": "Servo state s2"}

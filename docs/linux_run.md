@@ -6,13 +6,15 @@ Update version in pyproject.toml
 ```sh
 [project]
 name = "ptplab"
-version = "0.1.2"
+version = "0.1.3"
 ```
 
 Reinstall the editable package.
 ```sh
 uv pip install -e .
-uv pip show ptplab # show new version is being used
+
+# show new version is being used
+uv pip show ptplab
 ```
 
 # Build a new wheel for the package (if needed)
@@ -50,7 +52,8 @@ uv pip show ptplab
 Name: ptplab
 Version: 0.1.2
 
-uv run ptplab --help # verify it package is available to run
+# verify it package is available to run
+uv run ptplab --help
 ```
 
 # Start ptp4l on VM1 as Grand Master (GM)
@@ -92,9 +95,10 @@ mkdir -f logs
 ```
 
 ```sh
+export PTPLOG="ptp4l_7.log"
 sudo -v
 sudo ptp4l -i enp0s1 -m -S -f /etc/linuxptp/ptp4l.conf \
-> ~/timing/logs/ptp4l_5.log 2>&1 &
+> logs/$PTPLOG 2>&1 &
 ```
 `-m` prints to stdout; also tee to a file for parsing
 `-S` forces software timestamping
@@ -108,14 +112,13 @@ sudo ptp4l -i enp0s1 -m -S -f /etc/linuxptp/ptp4l.conf \
 ps aux | grep ptp4l
 
 # Confirm ptp4l is logging
-tail -f ~/timing/logs/ptp4l_4.log
+tail -f logs/$PTPLOG
 ```
 # Output the state, warnings, and alarms
 ```sh
+export PTPJSON="ptp_events_7.jsonl"
 # Process the logs with the python package we built: ptplab
-uv run ptplab --log logs/ptp4l_short.log --from-start
-
-uv run ptplab --log logs/ptp4l_5.log --event-log logs/ptp_events_3.jsonl
+uv run ptplab --log logs/$PTPLOG --event-log logs/$PTPJSON
 
 # Output
 2025-12-29 11:23:27 [WARN] offset_warn: Offset 1.999 ms >= 1.0 ms
@@ -127,19 +130,10 @@ uv run ptplab --log logs/ptp4l_5.log --event-log logs/ptp_events_3.jsonl
 [...]
 ```
 Collect about 20 min of logs (~1k lines). 
-Transfer to local computer into the timing/logs folder. 
-Then possible to run ptplab on local computer to analyze this file.
+Transfer logs and events to local computer into the timing/logs folder. 
+Then ptpanalyze on local computer to analyze this events.
 
 Stop ptplab with Ctrl-C
-
-# If running for the local computer, process the log from the beginning
-```sh
-ptplab --log ~/timing/logs/ptp4l.log --from-start
-ptplab --log logs/ptp4l_enp0s1.log --plot-every-s 1.0 --from-start
-uv run ptplab --log logs/ptp4l_short.log --plot-every-s 1.0 --from-start
-ptplab --log logs/ptp4l_short.log --plot-every-s 0.0 --from-start
-python -m ptplab.app --log logs/ptp4l_enp0s1.log --plot-every-s 1.0 --from-start
-```
 
 # Stop ptp4l on VM2
 Stop ptp4l that is running in the background
@@ -170,17 +164,11 @@ Ctrl-C to stop.
 # Transfer file to local computer
 Copy to shared folder.
 ```sh
-cp logs/ptp_events_3.jsonl /mnt/linux_share2/
+cp logs/$PTPLOG /mnt/linux_share2/
+cp logs/$PTPJSON /mnt/linux_share2/
 ```
 
 # Shut down Linux VMs
 ```sh
 sudo poweroff
-```
-
-# Plot the offset vs time
-Transfer the event log back to the local computer to plot and analyze.
-```sh
-uv run ptpanalyze --log logs/ptp_events_3.jsonl --title "PTP Offset Analysis" --block
-
 ```

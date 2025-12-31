@@ -51,19 +51,23 @@ The project is designed to be useful even without PTP hardware timestamping, whi
 - [Requirements](docs/requirements.md)
 
 ⸻
-# Run on a Linux OS
+# Run Code
 Here is how to run the code for the project
 
-Setup two Linux VMs, capture logs for ptp4l from the slave VM, transfer the logs to the local computer in the timing/logs folder.
+Setup two Linux VMs, capture logs for ptp4l from the slave VM, transfer the logs to the local computer in the timing/logs folder, and analyze the events log.
 - [Linux Setup](docs/linux_setup.md)
 - [Linux Run](docs/linux_run.md)
+- [Local Analyze](docs/local_analyze.md)
 
 ⸻
 # Project Layout
 ```txt
 timing/
 ├── README.md
+├── main.py
 ├── pyproject.toml
+│
+├── build/                         # Build artifacts
 │
 ├── configs/
 │   ├── site_single.yaml
@@ -71,32 +75,37 @@ timing/
 │
 ├── docs/
 │   ├── interfaces.md
+│   ├── linux_run.md
+│   ├── linux_setup.md
+│   ├── local_analyze.md
 │   ├── requirements.md
 │   └── system_architecture.md
 │
-├── examples/
-│   └── example_ptp41.log
+├── logs/                          # PTP logs from Linux VMs
 │
 ├── scripts/
-│   ├── ptp4l_slave.sh            # Run ptp4l as a slave
-│   ├── phc2sys.sh                # Discipline system clock from NIC PHC
 │   ├── check_ts_capabilities.sh  # Check NIC timestamping support
-│   └── simulate_ptp_log.sh       # Generate fake ptp4l logs for development
+│   └── phc2sys.sh                # Discipline system clock from NIC PHC
 │
-├── src/
-│   └── ptplab/
-│       ├── common/
-│       │   └── models.py          # Data models
-│       │
-│       ├── ptplab/
-│       │   ├── config.py          # Thresholds and configuration
-│       │   ├── log_tail.py        # Tail-like log follower
-│       │   ├── parse_ptp.py       # ptp4l log parsing
-│       │   ├── events.py          # Warn / alarm / lost-sync detection
-│       │   ├── plot.py            # Offset vs time plotting
-│       │   └── monitor.py         # Main monitoring application
-│       │
-│       └── app.py
+└── src/
+    ├── ptpanalyze/               # Analysis tools
+    │   ├── __init__.py
+    │   ├── __main__.py
+    │   ├── analyzer.py
+    │   ├── app.py
+    │   └── plot.py
+    │
+    └── ptplab/                   # Main monitoring application
+        ├── __init__.py
+        ├── __main__.py
+        ├── app.py
+        ├── config.py             # Thresholds and configuration
+        ├── event_logger.py
+        ├── events.py             # Warn / alarm / lost-sync detection
+        ├── log_tail.py           # Tail-like log follower
+        ├── models.py             # Data models
+        ├── monitor.py            # Main monitoring loop
+        └── parse_ptp.py          # ptp4l log parsing
 ```
 ⸻
 # Supported Platforms
@@ -120,15 +129,6 @@ Even without a PTP-capable NIC, you can learn:
 -	how network load affects timing
 -	how to detect degraded sync or failures
 
-Run ptp4l using software timestamping:
-
-./scripts/ptp4l_slave.sh eth0 0
-
-Simulate logs for development:
-
-./scripts/simulate_ptp_log.sh ./logs/ptp4l_sim.log
-python -m ptplab.monitor --log ./logs/ptp4l_sim.log
-
 ⸻
 # Running With PTP Hardware (Future / Optional)
 With a NIC that supports hardware timestamping:
@@ -137,10 +137,6 @@ With a NIC that supports hardware timestamping:
 -	phc2sys can discipline system time from the NIC PHC
 -	Offset jitter drops significantly
 -	Holdover and GNSS loss behavior can be evaluated
-
-Example:
-./scripts/ptp4l_slave.sh eth0 0
-./scripts/phc2sys.sh /dev/ptp0
 
 ⸻
 # Monitoring & Alerting
@@ -151,16 +147,6 @@ The Python monitor provides:
 -	Alarm: ≥ 5 ms
 -	Lost-sync detection
 -	No valid servo updates for N seconds
-
-Run:
-
-python -m ptplab.monitor \
-  --log ./logs/ptp4l_eth0_d0.log \
-  --warn-ms 1 \
-  --alarm-ms 5 \
-  --lost-sync-s 3
-
-These thresholds can be tuned to match radar cueing budgets.
 
 ⸻
 # Engineering Challenges Explored
