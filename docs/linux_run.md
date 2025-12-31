@@ -1,7 +1,7 @@
 # Summary
 Here is how to run the project after the [Linux VM Setup](linux_setup.md).
 
-
+# Create package
 Update version in pyproject.toml
 ```sh
 [project]
@@ -17,7 +17,7 @@ uv pip install -e .
 uv pip show ptplab
 ```
 
-# Build a new wheel for the package (if needed)
+# Build a new wheel for the package
 Build a new wheel
 ```sh
 uv build
@@ -42,6 +42,7 @@ sudo mount -t 9p -o trans=virtio,version=9p2000.L,rw,access=any share /mnt/linux
 ```
 Move the file and install it.
 ```sh
+mkdir -f ~/wheels
 mv /mnt/linux_share2/ptplab-0.1.3-py3-none-any.whl ~/wheels
 
 cd ~/timing
@@ -50,7 +51,7 @@ uv pip show ptplab
 
 # Output: verify it shows current version
 Name: ptplab
-Version: 0.1.2
+Version: 0.1.3
 
 # verify it package is available to run
 uv run ptplab --help

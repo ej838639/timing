@@ -4,7 +4,7 @@ Linux-based PTP timing lab for radar systems using ptp4l and phc2sys, with Pytho
 ⸻
 # PTP Timing Lab for Radar Systems
 This project is a hands-on learning lab for Precision Time Protocol (PTP) as used in radar and distributed sensor systems, with a focus on:
-- Linux ptp4l and phc2sys
+- Linux ptp4l
 - Measuring timing accuracy and stability
 - Detecting and alerting on synchronization loss
 - Scaling from a single radar site to multi-site GNSS-disciplined deployments
@@ -109,28 +109,24 @@ timing/
 ```
 ⸻
 # Supported Platforms
-Linux (Timing Nodes)
--	Recommended OS: Ubuntu Server 22.04 LTS
--	Kernel: ≥ 5.15 (6.x supported)
--	Why: full support for PHC, hardware timestamping, and linuxptp
+Linux (Log Collection / Parsing)
+- Generate ptp4l messages
+- Parse ptp4l messages into events
 
 macOS (Development / Analysis)
--	Used for:
 -	Python development
--	log parsing and plotting
--	macOS does not support Linux PHC or ptp4l equivalently
--	Real timing work must run on Linux
+-	Event plotting
 
 ⸻
 # Running Without PTP Hardware (Software Timestamping)
-Even without a PTP-capable NIC, you can learn:
+Even without a PTP-capable NIC:
 -	ptp4l state transitions (LISTENING → UNCALIBRATED → SLAVE)
 -	offset and frequency correction behavior
 -	how network load affects timing
 -	how to detect degraded sync or failures
 
 ⸻
-# Running With PTP Hardware (Future / Optional)
+# Running With PTP Hardware (Future)
 With a NIC that supports hardware timestamping:
 -	/dev/ptp0 will appear
 -	ptp4l can use hardware timestamps
@@ -155,7 +151,6 @@ This lab is intentionally designed to surface real-world issues:
 -	Network congestion and packet delay variation
 -	PTP state churn and BMCA changes
 -	Log gaps and process failures
--	Differences between software and hardware timestamping
 
 The goal is not “perfect sync”, but knowing when sync is no longer trustworthy.
 
