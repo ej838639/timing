@@ -1,35 +1,36 @@
+import os
 import time
 from datetime import datetime, timezone
 from typing import Optional
 
 from .config import Thresholds
+from .event_logger import EventLogger
 from .events import EventEngine, Severity
 from .log_tail import follow
 from .parse_ptp import parse_servo, parse_port_state
-from .plot import Series, plot_offset
 
 
 def run_monitor(
     *,
     log_path: str,
+    event_log_path: Optional[str] = None,
     warn_ms: float = 1.0,
     alarm_ms: float = 5.0,
     lost_sync_s: float = 3.0,
-    plot_every_s: float = 10.0,
     from_start: bool = False,
 ) -> None:
     """
     Run the PTP log monitoring loop.
 
     This function tails a ptp4l log file, extracts servo data,
-    generates alerts, and optionally plots offset vs time.
+    and generates alerts.
 
     Args:
         log_path: Path to the ptp4l log file
+        event_log_path: Path to write ptplab events log file (optional)
         warn_ms: Warning threshold in milliseconds
         alarm_ms: Alarm threshold in milliseconds
         lost_sync_s: Lost sync timeout in seconds
-        plot_every_s: Plot interval in seconds (0 disables)
         from_start: If True, process entire log from beginning; if False, tail only new lines
     """
     thresholds = Thresholds(
@@ -39,8 +40,15 @@ def run_monitor(
     )
 
     engine = EventEngine(thresholds)
-    series = Series()
-    last_plot_t: Optional[float] = None
+
+    # Prepare event logger
+    event_logger = None
+    if event_log_path:
+        os.makedirs(
+            os.path.dirname(os.path.abspath(event_log_path)) or ".", exist_ok=True
+        )
+        event_logger = EventLogger(event_log_path)
+        event_logger.__enter__()
 
     try:
         with open(log_path, "r", encoding="utf-8", errors="replace") as fp:
@@ -52,9 +60,10 @@ def run_monitor(
 
                 servo = parse_servo(line, now_utc)
                 if servo:
-                    series.add(servo)
                     for event in engine.on_servo(servo):
                         _print_event(event.severity, event.kind, event.message, now_str)
+                        if event_logger:
+                            event_logger.log_event(event)
                 else:
                     state = parse_port_state(line, now_utc)
                     if state:
@@ -68,21 +77,16 @@ def run_monitor(
                 lost = engine.check_lost_sync(now_utc)
                 if lost:
                     _print_event(lost.severity, lost.kind, lost.message, now_str)
-
-                # When from_start is True, skip periodic plotting
-                if not from_start and plot_every_s > 0:
-                    if last_plot_t is None or (now_utc - last_plot_t) >= plot_every_s:
-                        last_plot_t = now_utc
-                        plot_offset(series)
-
-        # When processing from start, show one plot at the end
-        if from_start and plot_every_s > 0 and len(series.t) > 0:
-            plot_offset(series, block=True)
+                    if event_logger:
+                        event_logger.log_event(lost)
     except KeyboardInterrupt:
         print("\nMonitoring stopped.")
     except FileNotFoundError:
         print(f"Error: Log file not found: {log_path}")
         raise
+    finally:
+        if event_logger:
+            event_logger.__exit__(None, None, None)
 
 
 def _print_event(sev: Severity, kind: str, msg: str, ts: str) -> None:

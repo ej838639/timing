@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ptplab"
-version = "0.1.1"
+version = "0.1.3"
 description = "Learn PTP timing for a radar"
 readme = "README.md"
 requires-python = ">=3.12"
@@ -15,6 +15,7 @@ dependencies = [
 
 [project.scripts]
 ptplab = "ptplab.app:main"
+ptpanalyze = "ptpanalyze.app:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}

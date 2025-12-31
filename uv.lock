@@ -524,10 +524,11 @@ wheels = [
 
 [[package]]
 name = "ptplab"
-version = "0.1.0"
+version = "0.1.3"
 source = { editable = "." }
 dependencies = [
     { name = "matplotlib" },
+    { name = "pyqt5", marker = "sys_platform == 'darwin'" },
 ]
 
 [package.dev-dependencies]
@@ -539,7 +540,10 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "matplotlib", specifier = ">=3.7" }]
+requires-dist = [
+    { name = "matplotlib", specifier = ">=3.7" },
+    { name = "pyqt5", marker = "sys_platform == 'darwin'", specifier = ">=5.15" },
+]
 
 [package.metadata.requires-dev]
 dev = [
@@ -565,6 +569,40 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/33/c1/1d9de9aeaa1b89b0186e5fe23294ff6517fce1bc69149185577cd31016b2/pyparsing-3.3.1.tar.gz", hash = "sha256:47fad0f17ac1e2cad3de3b458570fbc9b03560aa029ed5e16ee5554da9a2251c", size = 1550512, upload-time = "2025-12-23T03:14:04.391Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/8b/40/2614036cdd416452f5bf98ec037f38a1afb17f327cb8e6b652d4729e0af8/pyparsing-3.3.1-py3-none-any.whl", hash = "sha256:023b5e7e5520ad96642e2c6db4cb683d3970bd640cdf7115049a6e9c3682df82", size = 121793, upload-time = "2025-12-23T03:14:02.103Z" },
+]
+
+[[package]]
+name = "pyqt5"
+version = "5.15.11"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "pyqt5-qt5" },
+    { name = "pyqt5-sip" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/0e/07/c9ed0bd428df6f87183fca565a79fee19fa7c88c7f00a7f011ab4379e77a/PyQt5-5.15.11.tar.gz", hash = "sha256:fda45743ebb4a27b4b1a51c6d8ef455c4c1b5d610c90d2934c7802b5c1557c52", size = 3216775, upload-time = "2024-07-19T08:39:57.756Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/11/64/42ec1b0bd72d87f87bde6ceb6869f444d91a2d601f2e67cd05febc0346a1/PyQt5-5.15.11-cp38-abi3-macosx_11_0_arm64.whl", hash = "sha256:c8b03dd9380bb13c804f0bdb0f4956067f281785b5e12303d529f0462f9afdc2", size = 6579776, upload-time = "2024-07-19T08:39:19.775Z" },
+    { url = "https://files.pythonhosted.org/packages/49/f5/3fb696f4683ea45d68b7e77302eff173493ac81e43d63adb60fa760b9f91/PyQt5-5.15.11-cp38-abi3-macosx_11_0_x86_64.whl", hash = "sha256:6cd75628f6e732b1ffcfe709ab833a0716c0445d7aec8046a48d5843352becb6", size = 7016415, upload-time = "2024-07-19T08:39:32.977Z" },
+]
+
+[[package]]
+name = "pyqt5-qt5"
+version = "5.15.18"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/46/90/bf01ac2132400997a3474051dd680a583381ebf98b2f5d64d4e54138dc42/pyqt5_qt5-5.15.18-py3-none-macosx_10_13_x86_64.whl", hash = "sha256:8bb997eb903afa9da3221a0c9e6eaa00413bbeb4394d5706118ad05375684767", size = 39715743, upload-time = "2025-11-09T12:56:42.936Z" },
+    { url = "https://files.pythonhosted.org/packages/24/8e/76366484d9f9dbe28e3bdfc688183433a7b82e314216e9b14c89e5fab690/pyqt5_qt5-5.15.18-py3-none-macosx_11_0_arm64.whl", hash = "sha256:c656af9c1e6aaa7f59bf3d8995f2fa09adbf6762b470ed284c31dca80d686a26", size = 36798484, upload-time = "2025-11-09T12:56:59.998Z" },
+]
+
+[[package]]
+name = "pyqt5-sip"
+version = "12.17.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/1e/4a/195cf4d2a7e1ff480b4cabcd51aa5c0068c03a19a97282317536e4a82e1e/pyqt5_sip-12.17.2.tar.gz", hash = "sha256:7f66565c2a13d34d8ad6aad08e953d355ea3fe466d991d51aa5a0966a5289f05", size = 104246, upload-time = "2025-12-06T13:19:06.821Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/4b/3e/f5c7bc43668147ddc00a1a579f22639dffdbfb9470ce3a5bc1cf27e0d541/pyqt5_sip-12.17.2-cp312-cp312-macosx_10_9_universal2.whl", hash = "sha256:0bd1a8e59124a90a05f078bceeb9d4d93c3986c349030487c202fffde6612969", size = 124612, upload-time = "2025-12-06T13:18:49.614Z" },
+    { url = "https://files.pythonhosted.org/packages/38/b1/78432c271b2a5477f5fe1ad9eb69cdc482430230b8d552cf5cee393d7862/pyqt5_sip-12.17.2-cp313-cp313-macosx_10_13_universal2.whl", hash = "sha256:cfeee3c27f28c091d6a46f8befe9afcfafc76846846bedf1112d403a7299e864", size = 124589, upload-time = "2025-12-06T13:18:54.942Z" },
+    { url = "https://files.pythonhosted.org/packages/58/29/b4943def737d3f8876bfd4f9af1909892ae1998099695b3e81870c39aaa7/pyqt5_sip-12.17.2-cp314-cp314-macosx_10_15_universal2.whl", hash = "sha256:6f03c25a18294f2d66befc4f2adf3f35fceba877b937dc8a94783fa7da8b7345", size = 124591, upload-time = "2025-12-06T13:19:02.105Z" },
 ]
 
 [[package]]

@@ -1,24 +1,31 @@
 # Summary
 Here is how to run the project after the [Linux VM Setup](linux_setup.md).
 
-# Build a new wheel for the package (if needed)
+
 Update version in pyproject.toml
 ```sh
 [project]
 name = "ptplab"
-version = "0.1.1"
+version = "0.1.2"
 ```
 
+Reinstall the editable package.
+```sh
+uv pip install -e .
+uv pip show ptplab # show new version is being used
+```
+
+# Build a new wheel for the package (if needed)
 Build a new wheel
 ```sh
 uv build
 
 dist/
-└── ptplab-0.1.1-py3-none-any.whl
+└── ptplab-0.1.3-py3-none-any.whl
 ```
 
 # Copy build from local conputer to Linux VM 2
-Move the following wheel: `ptplab-0.1.1-py3-none-any.whl`
+Move the following wheel: `ptplab-0.1.3-py3-none-any.whl`
 From: `~/timing/build`
 To: `~/linux_share2`
 
@@ -33,17 +40,17 @@ sudo mount -t 9p -o trans=virtio,version=9p2000.L,rw,access=any share /mnt/linux
 ```
 Move the file and install it.
 ```sh
-mv /mnt/linux_share2/ptplab-0.1.1-py3-none-any.whl ~/wheels
+mv /mnt/linux_share2/ptplab-0.1.3-py3-none-any.whl ~/wheels
 
 cd ~/timing
-uv pip install ~/wheels/ptplab-0.1.1-py3-none-any.whl
+uv pip install ~/wheels/ptplab-0.1.3-py3-none-any.whl
 uv pip show ptplab
 
 # Output: verify it shows current version
 Name: ptplab
-Version: 0.1.1
+Version: 0.1.2
 
-uv run ptplab --help
+uv run ptplab --help # verify it package is available to run
 ```
 
 # Start ptp4l on VM1 as Grand Master (GM)
@@ -61,7 +68,9 @@ ptp4l[2189.172]: port 1: assuming the grand master role
 # Start ptp4l on VM2
 ```sh
 cd ~/timing
-
+```
+If the first time running, then run these commands.
+```sh
 # Confirm slave (i.e. " foreign master")
 sudo ptp4l -i enp0s1 -m -S -f /etc/linuxptp/ptp4l.conf
 
@@ -80,10 +89,12 @@ ptp4l[64967.025]: master offset -104997390 s0 freq +1500000 path delay    677985
 
 # Analyze ouptput with ptplab. Start ptp4l in background.
 mkdir -f logs
+```
 
-sudo -v # if did not run the previous sudo command.
+```sh
+sudo -v
 sudo ptp4l -i enp0s1 -m -S -f /etc/linuxptp/ptp4l.conf \
-> ~/timing/logs/ptp4l_3.log 2>&1 &
+> ~/timing/logs/ptp4l_5.log 2>&1 &
 ```
 `-m` prints to stdout; also tee to a file for parsing
 `-S` forces software timestamping
@@ -97,12 +108,14 @@ sudo ptp4l -i enp0s1 -m -S -f /etc/linuxptp/ptp4l.conf \
 ps aux | grep ptp4l
 
 # Confirm ptp4l is logging
-tail -f ~/timing/logs/ptp4l.log
+tail -f ~/timing/logs/ptp4l_4.log
 ```
 # Output the state, warnings, and alarms
 ```sh
 # Process the logs with the python package we built: ptplab
-uv run ptplab --log ~/timing/logs/ptp4l_3.log
+uv run ptplab --log logs/ptp4l_short.log --from-start
+
+uv run ptplab --log logs/ptp4l_5.log --event-log logs/ptp_events_3.jsonl
 
 # Output
 2025-12-29 11:23:27 [WARN] offset_warn: Offset 1.999 ms >= 1.0 ms
@@ -123,17 +136,11 @@ Stop ptplab with Ctrl-C
 ```sh
 ptplab --log ~/timing/logs/ptp4l.log --from-start
 ptplab --log logs/ptp4l_enp0s1.log --plot-every-s 1.0 --from-start
-ptplab --log logs/ptp4l_short.log --plot-every-s 1.0 --from-start
+uv run ptplab --log logs/ptp4l_short.log --plot-every-s 1.0 --from-start
 ptplab --log logs/ptp4l_short.log --plot-every-s 0.0 --from-start
 python -m ptplab.app --log logs/ptp4l_enp0s1.log --plot-every-s 1.0 --from-start
 ```
 
-# Plot the offset vs time
-Plot the offset every 10 sec.
-```sh
-ptplab --log ~/timing/logs/ptp4l.log --plot-every-s 1.0
-
-```
 # Stop ptp4l on VM2
 Stop ptp4l that is running in the background
 ```sh
@@ -162,8 +169,18 @@ Ctrl-C to stop.
 
 # Transfer file to local computer
 Copy to shared folder.
-
-# Shut down Linux VMs
-
+```sh
+cp logs/ptp_events_3.jsonl /mnt/linux_share2/
 ```
 
+# Shut down Linux VMs
+```sh
+sudo poweroff
+```
+
+# Plot the offset vs time
+Transfer the event log back to the local computer to plot and analyze.
+```sh
+uv run ptpanalyze --log logs/ptp_events_3.jsonl --title "PTP Offset Analysis" --block
+
+```
